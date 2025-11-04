@@ -12,9 +12,8 @@ body {
   margin: 0;
   width: 100%;
   display: grid;
-  grid-template: auto;
   grid-template-areas:
-  "header"
-  "container";
-  justify-content: center;
+    'header'
+    'container';
+  justify-items: center;
 }

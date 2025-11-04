@@ -57,29 +57,29 @@
     line-height: $link-size;
     color: $main-accent;
     white-space: nowrap;
+    transition: color 0.3s ease-in-out;
 
     &:hover {
       color: $blue-accent;
-      transition: color 0.3s ease-in-out;
     }
-  }
-}
 
-.is-active {
-  position: relative;
-  color: $blue-accent;
-  display: flex;
-  align-items: stretch;
+    &.is-active {
+      position: relative;
+      color: $blue-accent;
+      display: flex;
+      align-items: stretch;
 
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 100%;
-    border-radius: 8px;
-    background-color: $blue-accent;
-    align-self: flex-end;
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        width: 100%;
+        border-radius: 8px;
+        background-color: $blue-accent;
+        align-self: flex-end;
+      }
+    }
   }
 }
