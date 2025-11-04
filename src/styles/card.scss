@@ -8,15 +8,15 @@
   place-content: center;
   grid-area: container;
 
-  @media (max-width: 488px) {
+  @media (max-width: 487px) {
     grid-template-columns: 1fr;
   }
 
-  @media (min-width: 488px) and (max-width: 768px) {
+  @media (min-width: 488px) and (max-width: 767px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     grid-template-columns: repeat(3, 1fr);
   }
 
